@@ -12,20 +12,22 @@
         <div class="info">
 
             <img src="https://phonoteka.org/uploads/posts/2021-06/1624420233_59-phonoteka_org-p-oboi-serie-treugolniki-krasivo-60.jpg" alt="тут моя фотка" class="avatar" />
-            <h1>Дьячков Владислав</h1>
-            <p><em>Я основатель одноименной компании 
+
+            <div class="info-text">
+                <h1>Дьячков Владислав</h1>
+                <p><em>Я основатель одноименной компании 
             <strong>LASLOU INDASTRIS</strong></em></p>
-            <P>Я люблю создавать, придумывать, писать, творить и тд.</P>
+                <P>Я люблю создавать, придумывать, писать, творить и тд.</P>
 
-            <h4>Мои социальные сети:</h4>
+                <h4>Мои социальные сети:</h4>
 
-            <a target=" _blank " href="https://web.telegram.org/z/ ">
+                <a target=" _blank " href="https://web.telegram.org/z/ ">
             Telegram</a> |
-            <a target="_blank " href="https://vk.com/feed ">
+                <a target="_blank " href="https://vk.com/feed ">
                 VK</a> |
-            <a target="_blank " href="https://github.com/Laslou99 ">
+                <a target="_blank " href="https://github.com/Laslou99 ">
                     Github</a>
-
+            </div>
 
         </div>
 
@@ -49,9 +51,9 @@
                     <th>Время работы</th>
                 </tr>
                 <tr>
-                    <td>Chiken House</td>
-                    <td>кассир</td>
-                    <td>4 месяца</td>
+                    <td class="temp">Chiken House</td>
+                    <td class="temp">кассир</td>
+                    <td class="temp">4 месяца</td>
                 </tr>
                 <tr>
                     <td>ООО Бизнес Коллекшен Групп</td>
@@ -73,31 +75,45 @@
 
         <div class="card bg-fuchsia ">
             <h2>Мой Youtube канал:</h2>
-            <a target="_blank " href="Ssite.html ">Посмотреть список</a>
+            <ul class="link-list">
+                <li>
+                    <a href="https://www.youtube.com/channel/UClujacrmlDudYEt2YrT7AcQ">
+                        Laslou
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=IGZPcCEKzVY&t=5s">
+                    Видео, которое меня замотивировало заниматься 3д
+                    </a>
+                </li>
+            </ul>
         </div>
 
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form action="/ ">
 
-        <h2>Связаться со мной</h2>
-        <form action="/ ">
-            <label for="name ">Ваше имя</label>
-            <input type="text " id="name " placeholder="Введите ваше имя... ">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name ">Ваше имя</label>
+                        <input type="text " id="name " placeholder="Введите ваше имя... ">
+                    </div>
 
-            <br>
+                    <div class="form-group">
+                        <label for="email ">Ваш Email:</label>
+                        <input type="email " id="email " placeholder="Введите email... ">
+                    </div>
+                </div>
 
-            <label for="email ">Ваш Email:</label>
-            <input type="email " id="email " placeholder="Введите email... ">
+                <div class="form-group">
+                    <label for="text ">Ваше сообщение:</label>
+                    <br>
+                    <textarea id="text " cols="15 " rows="2 "></textarea>
+                </div>
 
-            <br>
-
-            <label for="text ">Ваше сообщение:</label>
-            <br>
-            <textarea id="text " cols="15 " rows="2 "></textarea>
-
-            <br>
-
-            <input type="submit " value="Связаться ">
-        </form>
-
+                <input class="btn" type="submit " value="Связаться ">
+            </form>
+        </div>
     </div>
 
     <div style="margin-bottom: 500px;; "></div>

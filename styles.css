@@ -9,7 +9,7 @@ body {
 }
 
 a {
-    color: rgb(91, 91, 255);
+    color: rgb(76, 76, 109);
     text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ a:active {
 .avatar {
     width: 200px;
     border-radius: 50px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 025);
 }
 
 .info {
@@ -37,7 +37,7 @@ a:active {
 }
 
 .info p {
-    color: #86898f;
+    color: #727c91;
     margin: 0;
     font-style: italic;
     font-weight: bold;
@@ -47,12 +47,26 @@ a:active {
     /* word-spacing: 42px; */
 }
 
+.info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 20px;
+}
+
 
 /* Box Model */
 
 .conteiner {
-    max-width: 100%;
+    max-width: 750px;
     margin: auto;
+    padding-top: 30px;
 }
 
 
@@ -83,15 +97,15 @@ a:active {
 } */
 
 .bg-yellow {
-    background: rgb(241, 241, 155);
+    background: rgb(249, 249, 176);
 }
 
 .bg-green {
-    background: rgb(169, 255, 169);
+    background: rgb(173, 254, 173);
 }
 
 .bg-fuchsia {
-    background: rgb(237, 170, 170);
+    background: rgb(242, 191, 191);
 }
 
 .card {
@@ -119,4 +133,74 @@ a:active {
 
 .table td {
     padding: 10px;
+}
+
+
+/* .table td:nth-child(3) {
+    color: rgb(236, 94, 94);
+}
+
+.table tr:nth-child(odd) {
+    background: red;
+} */
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    /* padding-bottom: 5px; */
+    border-bottom: 1px solid rgb(114, 72, 72);
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row>.form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row>.form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    background: #111;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
